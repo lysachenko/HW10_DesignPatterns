@@ -1,6 +1,6 @@
 package com.lysachenko.singleton;
 
-public class Singleton {
+public final class Singleton {
     private static final Singleton instance = new Singleton();
 
     private Singleton() {
